@@ -40,7 +40,7 @@ print(f'GPT-3 response: {response_text}')
 
 # Define the payload for the D-ID API request
 payload = '------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name="image"; filename="image.jpg"\r\nContent-Type: image/jpeg\r\n\r\n'
-with open('Samantha(SAM).jpeg', 'rb') as f:
+with open('venv/Samantha(SAM).jpeg', 'rb') as f:
     payload += f.read().decode('ISO-8859-1')
 payload += '\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--'
 

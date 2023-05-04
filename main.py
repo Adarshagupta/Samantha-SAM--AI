@@ -7,7 +7,7 @@ import os
 # Set up OpenAI API credentials
 openai.api_key = os.environ["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"]
 
-# Define a function to generate a response using OpenAI's GPT-3
+# Define a function to generate a respose using OpenAI's GPT-3
 def generate_response(prompt):
     response = openai.Completion.create(
         engine="davinci",
